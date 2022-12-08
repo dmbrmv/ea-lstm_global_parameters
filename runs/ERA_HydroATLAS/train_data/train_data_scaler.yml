@@ -1,0 +1,94 @@
+attribute_means:
+  cls_cl_smj: 59.79472693032015
+  clz_cl_smj: 9.591337099811676
+  ele_mt_sav: 737.5205962369156
+  for_pc_sse: 72.3516746580558
+  gla_pc_sse: 0.08756939782345596
+  glc_cl_smj: 6.337099811676083
+  gwt_cm_sav: 347.06855661960145
+  inu_pc_ult: 7.334671753900288
+  ire_pc_sse: 0.8840890273774147
+  kar_pc_sse: 23.396438860368786
+  lka_pc_use: 0.44992775173835325
+  lkv_mc_usu: 61.839787077752334
+  prm_pc_sse: 0.5691871752735973
+  pst_pc_sse: 12.905794685931143
+  rev_mc_usu: 49.02741050052458
+  sgr_dk_sav: 146.72811777914856
+  slp_dg_sav: 7.312088935003215
+  slt_pc_sav: 38.54496124061177
+  snd_pc_sav: 43.860089350511736
+  urb_pc_sse: 0.7091234713243093
+  ws_area: 481.49477713737787
+attribute_stds:
+  cls_cl_smj: 18.06960468996784
+  clz_cl_smj: 2.4372580288834533
+  ele_mt_sav: 784.7959792841334
+  for_pc_sse: 36.06609814886361
+  gla_pc_sse: 0.7769226992690872
+  glc_cl_smj: 4.936322658048021
+  gwt_cm_sav: 255.6055743932396
+  inu_pc_ult: 18.18337118186786
+  ire_pc_sse: 2.530135555786223
+  kar_pc_sse: 35.85444984117646
+  lka_pc_use: 2.067747471676041
+  lkv_mc_usu: 548.3640512765596
+  prm_pc_sse: 2.867972928521709
+  pst_pc_sse: 19.564740282658175
+  rev_mc_usu: 490.16142457311923
+  sgr_dk_sav: 162.04363555030463
+  slp_dg_sav: 6.42033644765915
+  slt_pc_sav: 5.886523231879774
+  snd_pc_sav: 9.378463616629627
+  urb_pc_sse: 3.6996217491435273
+  ws_area: 475.93592539942097
+xarray_feature_scale:
+  coords: {}
+  attrs: {}
+  dims: {}
+  data_vars:
+    QObs:
+      dims: []
+      attrs: {}
+      data: 3.573974847793579
+    precip:
+      dims: []
+      attrs: {}
+      data: 7.975491046905518
+    srad_avg:
+      dims: []
+      attrs: {}
+      data: 138.18321228027344
+    temp_max:
+      dims: []
+      attrs: {}
+      data: 10.857577323913574
+    temp_min:
+      dims: []
+      attrs: {}
+      data: 10.119897842407227
+xarray_feature_center:
+  coords: {}
+  attrs: {}
+  dims: {}
+  data_vars:
+    QObs:
+      dims: []
+      attrs: {}
+      data: 1.4788694381713867
+    precip:
+      dims: []
+      attrs: {}
+      data: 2.3099846839904785
+    srad_avg:
+      dims: []
+      attrs: {}
+      data: 101.4875259399414
+    temp_max:
+      dims: []
+      attrs: {}
+      data: 16.891361236572266
+    temp_min:
+      dims: []
+      attrs: {}
+      data: 6.612918853759766

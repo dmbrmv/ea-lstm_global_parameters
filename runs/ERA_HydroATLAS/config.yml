@@ -1,0 +1,90 @@
+additional_feature_files: None
+batch_size: 256
+cache_validation_data: false
+checkpoint_path: None
+clip_gradient_norm: 1
+commit_hash:
+data_dir: .
+dataset: generic
+device: cuda:0
+dynamic_inputs:
+- temp_max
+- temp_min
+- srad_avg
+- precip
+epochs: 30
+evolving_attributes:
+experiment_name: ERA_HydroATLAS_Every_531
+forcings:
+head: regression
+hidden_size: 256
+img_log_dir: runs/ERA_HydroATLAS_Every_531_0510_202838/img_log
+initial_forget_bias: 6
+learning_rate:
+  0: 0.001
+  10: 0.0005
+  20: 0.0001
+log_interval: 5
+log_n_figures:
+log_tensorboard: true
+loss: NSE
+metrics:
+- NSE
+- KGE
+model: ealstm
+num_workers: 16
+number_of_basins: 531
+optimizer: Adam
+output_activation: linear
+output_dropout: 0.42
+package_version: 1.3.0
+per_basin_test_periods_file: None
+per_basin_train_periods_file: None
+per_basin_validation_periods_file: None
+predict_last_n: 1
+regularization:
+run_dir: runs/ERA_HydroATLAS_Every_531_0510_202838
+save_train_data: true
+save_validation_results: true
+save_weights_every: 1
+seed: 42
+seq_length: 365
+static_attributes:
+- glc_cl_smj
+- clz_cl_smj
+- cls_cl_smj
+- for_pc_sse
+- gla_pc_sse
+- gwt_cm_sav
+- inu_pc_ult
+- ire_pc_sse
+- kar_pc_sse
+- lka_pc_use
+- lkv_mc_usu
+- prm_pc_sse
+- pst_pc_sse
+- rev_mc_usu
+- sgr_dk_sav
+- slp_dg_sav
+- slt_pc_sav
+- snd_pc_sav
+- urb_pc_sse
+- ws_area
+- ele_mt_sav
+target_noise_std:
+target_variables:
+- QObs
+test_basin_file: basin_list_r42.txt
+test_end_date: 30/09/1999
+test_start_date: 01/10/1989
+train_basin_file: basin_list_r42.txt
+train_data_file: None
+train_dir: runs/ERA_HydroATLAS_Every_531_0510_202838/train_data
+train_end_date: 30/09/2008
+train_start_date: 01/10/1999
+use_basin_id_encoding: false
+validate_every: 3
+validate_n_random_basins: 531
+validation_basin_file: basin_list_r42.txt
+validation_end_date: 30/09/1989
+validation_start_date: 01/10/1980
